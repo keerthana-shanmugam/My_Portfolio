@@ -26,6 +26,10 @@
   margin-left: 50px;
 }
 
+.div1 h3:hover {
+  color: white;
+}
+
 .div1 li {
   list-style: none;
   display: flex;
@@ -58,6 +62,10 @@
   font-size: 1.5em;
 }
 
+.text-holder:hover {
+  color: white;
+}
+
 .div2 {
   background-color: #bbe7f1;
 }
@@ -71,7 +79,7 @@ bottom: 500px;
   font-family: sans-serif;
   color: rgb(28, 29, 34);
   font-size: 1.2em;
-  background-color: yellow;
+  background-color: white;
   padding: 50px;
   margin-right: 300px;
   width: 600px;

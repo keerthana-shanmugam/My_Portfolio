@@ -1,8 +1,9 @@
 @import "./global.css";
+@import "./typo.css";
 
 *{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .main-div {
   display: grid;
@@ -22,6 +23,10 @@
   font-family: sans-serif;
   float: left;
   margin-left: 50px;
+}
+
+.div1 h3:hover {
+  color: white;
 }
 
 .div1 li {
@@ -54,6 +59,10 @@
   position: absolute;
   left: 60%;
   font-size: 1.5em;
+}
+
+.text-holder:hover {
+  color: white;
 }
 
 .div2 {
