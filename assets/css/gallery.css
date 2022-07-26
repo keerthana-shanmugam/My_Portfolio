@@ -8,7 +8,7 @@
 
 .main-div {
   display: grid;
-  grid-template-rows: 25% 75%;
+  grid-template-rows: 25vh 75vh;
   height: 800px;
 }
 
