@@ -7,9 +7,8 @@
 }
 
 .main-div {
-  display: grid;
-  grid-template-rows: 25vh 75vh;
-  height: 800px;
+ display: flex;
+ flex-direction: column;
 }
 
 .div1 {
@@ -56,9 +55,9 @@
 .text-holder {
   color: var(--blue);
   float: right;
-  margin-top: 110px;
+  margin-top: 0px;
   position: absolute;
-  left: 60%;
+  left: 20%;
   font-size: 1.5em;
 }
 
