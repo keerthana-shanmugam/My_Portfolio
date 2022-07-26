@@ -73,7 +73,7 @@
 }
 
 .gallery_field {
-  margin-top: 7%;
+  margin-top: 20px;
   max-width: 1500px;
   /* background-color: blanchedalmond; */
   display: flex;
@@ -84,6 +84,7 @@
 }
 .gallery_field div{
   margin: 20px;
+  overflow: hidden;
 }
 img {
   width: 450px;
