@@ -67,15 +67,23 @@
 
 .div2 {
   background-color: #bbe7f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery_field {
   margin-top: 7%;
-  margin-left: 8%;
   max-width: 1500px;
   /* background-color: blanchedalmond; */
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+}
+.gallery_field div{
+  margin: 20px;
 }
 img {
   width: 450px;
