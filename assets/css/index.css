@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   float: right;
   margin-top: 110px;
   position: absolute;
-  left: 60%;
+  left: 20%;
   font-size: 1.5em;
 }
 
@@ -92,6 +92,10 @@ body::-webkit-scrollbar {
   width: auto;
   height: 550px;
   margin-left: 300px;
+  /* background-color: blac;
+  border-radius: 50%; */
+  /* border-top-left-radius: 50%;
+  border-top-right-radius: 50%; */
 }
 
 .div3 {
