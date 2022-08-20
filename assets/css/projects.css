@@ -1,5 +1,5 @@
 @import "./global.css";
-@import "./typo.css";
+/* @import "./typo.css"; */
 
 *{
   padding: 0;
@@ -77,16 +77,39 @@
 }
 
 .div2 .card-container {
-  border: 2px solid var(--black);
+  border: 3px solid black;
   width: 400px;
   height: 400px;
   text-align: center;
-  padding: 5px;
+  padding: 2px;
+  color: black;
 }
 
-.div2 iframe {
-  height: 300px;
+.div2 .video-container {
+  border: 3px solid black;
   width: 500px;
-  padding: 20px;
-  margin-top: 50px;
+  height: 400px;
+  text-align: center;
+  padding: 2px;
+  color: black;
+}
+.div2 iframe {
+  width: 450px;
+  height: 300px;
+}
+.card-container:focus {
+  box-shadow: 0px 0px 10px black;
+  border-color: black;
+}
+.card-container:hover {
+  border-radius: 5px;
+  color: black;
+}
+.video-container:focus {
+  box-shadow: 0px 0px 10px black;
+  border-color: black;
+}
+.video-container:hover {
+  border-radius: 5px;
+  color: black;
 }

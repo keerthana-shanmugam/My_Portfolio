@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap');
 
 html {
   font-size: 100%;
@@ -6,15 +6,15 @@ html {
 
 body {
   background: white;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color: #000000;
 }
 
 p {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 h1,
@@ -23,8 +23,8 @@ h3,
 h4,
 h5 {
   margin: 3rem 0 1.38rem;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   line-height: 1.3;
 }
 
